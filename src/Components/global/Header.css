@@ -1,0 +1,42 @@
+.color:hover {
+  color: #845ef7 !important;
+}
+
+.color:active {
+  color: #845ef7 !important;
+}
+
+.slide-top {
+  animation: 0.5s slide-top;
+}
+@keyframes slide-top {
+  from {
+    margin-top: 40%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+.menu_active {
+    width: 100%;
+    flex-shrink: 0;
+    height: 40px;
+    background-color: rgba(37, 18, 206, 0.15);
+    overflow: visible;
+    border-radius: 14px;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;  
+  
+}
+
+@media(max-width: 768px){
+  .menu_active {
+    width: 120%;
+    flex-shrink: 0;
+    height: 40px;
+    background-color: rgba(37, 18, 206, 0.15);
+    overflow: visible;
+    border-radius: 14px;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;  
+  
+}
+}

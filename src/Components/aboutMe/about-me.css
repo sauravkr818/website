@@ -1,0 +1,20 @@
+
+.custom-margin{
+    margin-top: 120px;
+    text-align: justify !important;
+}
+
+@media (min-width: 768px){   
+    .custom-margin{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 500px){   
+    .custom-margin{
+        margin-top: 80px;
+        text-align: justify !important;
+        padding: 2rem !important;
+    }
+}
+
